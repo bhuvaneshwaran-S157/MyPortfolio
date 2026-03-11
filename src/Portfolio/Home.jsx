@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 import { useEffect, useRef } from 'react';
 import SocialIcons from './SocialIcons';
+import profile from "../assets/IMG-20240127-WA0030.jpg";
 import Typed from 'typed.js';
 import "tailwindcss";
 import gsap from 'gsap';
@@ -55,7 +56,7 @@ const Home = () => {
         className="w-60  h-60 sm:w-90 sm:h-90 md:mb-0 -mb-12 md:w-120 md:h-120 rounded-full md:mt-6 mt-24  flex justify-center items-center order-1 md:order-2"
       >
         <img
-          src="src/assets/IMG-20240127-WA0030.jpg"
+          src={profile}
           alt=""
           className="w-full h-full object-cover rounded-full border-4 border-cyan-400 shadow-lg transition-all duration-200 ease-out"
         />
